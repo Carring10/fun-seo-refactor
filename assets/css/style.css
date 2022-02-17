@@ -8,6 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Changed class selector to type selector */
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -20,6 +22,8 @@ header h1 {
   display: inline-block;
   font-size: 48px;
 }
+
+/* Added hover effect */
 
 .seo:hover {
   border-bottom: solid 2px #d9dcd6;
@@ -42,9 +46,13 @@ header nav {
   list-style-type: none;
 }
 
+/* Added hover effect */
+
 a:hover {
   border-bottom: solid 2px #d9dcd6;
 }
+
+/* Removed ul and li to match HTML */
 
 header nav a {
   display: inline-block;
@@ -131,6 +139,8 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* Changed class selector to type selector */
 
 footer {
   padding: 30px;
