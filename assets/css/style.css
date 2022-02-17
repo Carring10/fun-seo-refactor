@@ -21,8 +21,13 @@ header h1 {
   font-size: 48px;
 }
 
+.seo:hover {
+  border-bottom: solid 2px #d9dcd6;
+}
+
 header h1 .seo {
   color: #d9dcd6;
+  text-decoration: none;
 }
 
 header nav {
@@ -35,6 +40,10 @@ header nav {
 
 header nav {
   list-style-type: none;
+}
+
+a:hover {
+  border-bottom: solid 2px #d9dcd6;
 }
 
 header nav a {
