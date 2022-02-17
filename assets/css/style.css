@@ -33,16 +33,16 @@ header nav {
   font-size: 20px;
 }
 
-header nav ul {
+header nav {
   list-style-type: none;
 }
 
-header nav ul li {
+header nav a {
   display: inline-block;
   margin-left: 25px;
 }
 
-a {
+nav a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -117,19 +117,11 @@ p {
   text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
+/* Combined 3 selectors that had the same values into 1. */
 
+.benefit-lead img,
+.benefit-cost img,
 .benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
